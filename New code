@@ -10,6 +10,8 @@ void func (int *pa, int n){
 		 }
 	}}
 int main(){
+int n;
+cout<<"input banyak data yang dimasukan =";
 
 return 0;
 }
