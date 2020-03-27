@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
-void func (int *pa, int n){
-		for(int j=0; j<n; j++){
+void func (int *pa, int a){
+		for(int j=0; j<a; j++){
 	 	if(*(pa+j)%2 == 0){
 	 		cout<<*(pa+j)<<" merupakan bilangan genap"<<endl;
 		 }
@@ -11,7 +11,8 @@ void func (int *pa, int n){
 	}}
 int main(){
 int n;
-cout<<"input banyak data yang dimasukan =";
+cout<<"Input banyak data yang akan dimasukkan = ";
+cin>>n;
 
 return 0;
 }
